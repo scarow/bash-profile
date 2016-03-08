@@ -5,6 +5,8 @@ export HISTFILESIZE=10000000
 export HISTSIZE=100000
 
 source ~/.git-completion.bash
+source /usr/local/git/contrib/completion/git-prompt.sh
+source ~/.ps1
 
 if [ "$TERM" != "dumb" ]; then
   export LS_OPTIONS='--color=auto'
